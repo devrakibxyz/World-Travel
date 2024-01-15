@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+.primary-text {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: Mulish;
+  text-align: center;
+}
+.secondary-text {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+.primary-btn {
+  width: 174px;
+  height: 52px;
+  background-color: var(--btn-color);
+  border: 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* common style  */
+
+:root {
+  --btn-color: #ff5400;
+}
+
+/* <!-- section-1-start --> */
+
+header {
+  max-width: 1170px;
+  height: auto;
+  margin: 50px auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 42px;
+  justify-content: flex-end;
+}
+.nav-menu ul a {
+  text-decoration: none;
+  color: var(--Dark-02, #424247);
+  font-size: 18px;
+  font-weight: 400;
+}
+.menu-right {
+  width: 50%;
+}
+.menu-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.menu-left h3 {
+  margin-left: 20px;
+  color: #131318;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+}
+.menu-left h3 span {
+  color: var(--btn-color);
+  font-size: 36px;
+}
+/* <!-- section-1-end --> */
+
+/* section-2-start */
+
+.banner-section {
+  max-width: 1170px;
+  height: auto;
+  margin: 50px auto;
+}
+.banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 16px;
+  padding: 120px 0;
+}
+.banner-content > h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+}
+.banner-content > p {
+  color: #fff;
+
+  text-align: center;
+
+  font-size: 16px;
+
+  font-weight: 400;
+  padding: 20px 0;
+  /* line-height: 26px; */
+}
+
+.banner-button {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 65%;
+  margin: 0 auto;
+}
+.banner-btn {
+  width: 174px;
+  height: 52px;
+  color: rgba(19, 19, 24, 0.5);
+  border-radius: 8px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding: 0 10px;
+}
+.bnr-btn1 > i {
+  position: relative;
+  left: 64px;
+  bottom: -3px;
+  font-size: 20px;
+}
+.bnr-btn2 > i {
+  position: relative;
+  left: 40px;
+  bottom: -3px;
+  font-size: 20px;
+}
+.bnr-bnt3 {
+  text-align: center;
+  background-color: var(--btn-color);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.bnr-bnt3 > i {
+  margin-right: 15px;
+}
+
+/* section-2-end */
+
+/* section-3-start */
+
+.section-3 {
+  width: 1170px;
+  height: auto;
+  margin: 50px auto;
+}
+.section-3-content-img {
+  display: flex;
+  gap: 50px;
+}
+.section-3-left {
+  text-align: left;
+}
+
+.section-3-right img {
+  width: 540px;
+  height: 550px;
+}
+.section-3-left p {
+  line-height: 26px;
+  padding-top: 24px;
+  text-align: left;
+}
+.section-3-left h2 {
+  text-align: left;
+}
+.section-3-left ul li {
+  line-height: 26px;
+  padding: 15px;
+}
+
+/* section-3-end */
+
+/* section-4-start */
+
+.section-4 {
+  max-width: 1170px;
+  height: auto;
+  margin: 80px auto;
+}
+
+.section-4-content {
+  width: 600px;
+  margin: auto;
+}
+.sec-4-img {
+  display: flex;
+  gap: 20px;
+}
+.section-4-img {
+  padding-top: 50px;
+}
+.box {
+  position: relative;
+}
+.box p {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  position: relative;
+  bottom: 170px;
+}
+
+/* section-4-end */
