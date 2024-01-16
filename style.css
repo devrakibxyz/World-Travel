@@ -19,7 +19,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
 }
 .primary-btn {
   width: 174px;
@@ -29,7 +29,7 @@
   color: #fff;
   text-align: center;
   border-radius: 8px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
 }
 
@@ -231,5 +231,131 @@ header {
   position: relative;
   bottom: 170px;
 }
+.section-4-content p {
+  padding-top: 20px;
+}
 
 /* section-4-end */
+
+/* section-5-start */
+
+.section-5 {
+  width: 1170px;
+  height: auto;
+  margin: auto;
+}
+.section-5 p {
+  width: 70%;
+  margin: 10px auto;
+  line-height: 30px;
+}
+.section-5-card {
+  margin-top: 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card h4 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+}
+.card {
+  padding: 30px 20px;
+  border: 2px solid black;
+}
+#card-1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+#card-1 > p {
+  width: 80%;
+  margin-left: 0;
+  color: #5a5a5d;
+  font-size: 16px;
+  line-height: 26px;
+}
+#card-2 > p {
+  width: 80%;
+  margin-left: 0;
+  color: #5a5a5d;
+  font-size: 16px;
+  line-height: 26px;
+}
+#card-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+#card-3 > p {
+  width: 80%;
+  margin-left: 0;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+#card-3 {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  width: 50%;
+  margin: 20px auto;
+}
+
+.section-7 {
+  margin-top: 100px;
+}
+.youtube iframe {
+  border-radius: 16px;
+}
+/* .section-7-end */
+
+/* section-8-start */
+
+.section-8 {
+  max-width: 1170px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  gap: 20px;
+  /* align-items: center; */
+}
+#form input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: 0;
+  padding: 15px;
+  width: 70%;
+  font-size: 16px;
+}
+
+.section-8-left h4 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.section-8-left p {
+  color: #5a5a5d;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 20px;
+}
+#btn-news {
+  width: 70%;
+}
+
+.section-8-img img {
+  width: 100%;
+  height: auto;
+}
