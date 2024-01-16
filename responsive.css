@@ -1,0 +1,130 @@
+@media screen and (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+  }
+  .nav-menu ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .banner-content > h1 {
+    font-size: 30px;
+  }
+  .banner-content > p {
+    text-align: center;
+
+    padding: 20px 0;
+    /* line-height: 26px; */
+    width: 80%;
+    margin: auto;
+  }
+  .banner-button {
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .banner-btn {
+    width: 250px;
+  }
+  .bnr-btn1 > i {
+    left: 140px;
+  }
+  .bnr-btn2 > i {
+    left: 95px;
+  }
+  .section-3-left h2 {
+    font-size: 24px;
+  }
+  .section-3 {
+    padding: 0px 20px;
+  }
+  .section-3-content-img {
+    flex-direction: column;
+  }
+  .section-3-left {
+    width: 50%;
+  }
+  .section-4-content h3 {
+    font-size: 22px;
+  }
+  .section-4-content p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .sec-4-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-4-img .box img {
+    width: 80%;
+    margin: auto;
+  }
+  .section-5 h2 {
+    font-size: 28px;
+    text-align: left;
+    width: 63%;
+    margin: auto;
+  }
+  .section-5 p {
+    width: 50%;
+    margin: initial;
+
+    text-align: center;
+    padding: 0 20px;
+  }
+  .section-5-card {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+  }
+  #card-1 > p {
+    width: 100%;
+    margin-left: -33px;
+  }
+  #card-2 > p {
+    width: 100%;
+    margin-left: -20px;
+  }
+  #card-3 {
+    width: 47%;
+    margin: 20px 0;
+  }
+  #card-3 > p {
+    width: 100%;
+    margin-left: -41px;
+  }
+
+  .section-6-content h2 {
+    font-size: 22px;
+  }
+  .section-6 p {
+    width: 80%;
+    margin: auto;
+  }
+  .section-bg {
+    position: relative;
+  }
+  .full-card-deals {
+    left: 20px;
+  }
+  #section-7-content li {
+    color: #131318;
+    font-weight: 800;
+  }
+
+  .section-8 {
+    flex-direction: column;
+  }
+  .section-8-left {
+    padding: 0px 30px;
+  }
+  .section-8-img img {
+    width: 80%;
+    height: auto;
+  }
+  .footer-contet p {
+    width: 70%;
+  }
+}
