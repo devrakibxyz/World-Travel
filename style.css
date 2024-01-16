@@ -306,6 +306,74 @@ header {
   width: 50%;
   margin: 20px auto;
 }
+/* section-5-end */
+
+/* section-6-start */
+.section-6 {
+  max-width: 1170px;
+  margin: 80px auto;
+}
+.section-bg {
+  background-image: url("./Images/Group\ 39.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+  margin-top: 20px;
+}
+.full-card-deals {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 450px;
+  padding: 50px;
+  position: absolute;
+  top: 50px;
+  left: 570px;
+}
+.full-card-deals > p {
+  color: var(--btn-color);
+  font-size: 18px;
+  font-weight: 800;
+  padding: 10px 0;
+}
+.sec-6-top-content > i {
+  color: var(--btn-color);
+}
+.section-box-content {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.sec-6-top-content {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 20px;
+}
+#section-bg2 {
+  background-image: url("./Images/Group\ 40.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+  margin-top: 20px;
+}
+#full-card-deals2 {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 450px;
+  padding: 50px;
+  position: absolute;
+  top: 50px;
+  right: 70px;
+}
+
+/* section-7-start */
 
 .section-7 {
   margin-top: 100px;
