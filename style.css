@@ -437,8 +437,13 @@ header {
   width: 1170px;
   margin: auto;
 }
+.boxo-text {
+  width: 60%;
+  margin: auto;
+}
 .boxo-text p {
   margin: 20px 0;
+  font-size: 18px;
 }
 
 .boxo-img {
