@@ -434,7 +434,8 @@ header {
 
 .boxo-part {
   padding: 100px 0;
-  text-align: center;
+  width: 1170px;
+  margin: auto;
 }
 .boxo-text p {
   margin: 20px 0;
@@ -442,64 +443,40 @@ header {
 
 .boxo-img {
   padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
-.boxo {
-  display: inline-block;
-  width: 20%;
-  margin: 10px;
-
-  overflow: hidden;
-}
-.boxo1 img {
+.boxo img {
   width: 100%;
   transition: 0.8s;
+  border-radius: 10px;
 }
 
 .boxo1:hover img {
   transform: rotate(360deg) scale(1.2);
 }
-.boxo2 img {
-  width: 100%;
-  transition: 0.8s;
-}
 
 .boxo2:hover img {
   transform: rotate(30deg) scale(1.2);
-}
-.boxo3 img {
-  width: 100%;
-  transition: 0.8s;
 }
 
 .boxo3:hover img {
   transform: rotate(-30deg) scale(1.2);
 }
-.boxo4 img {
-  width: 100%;
-  transition: 0.8s;
-}
 
 .boxo4:hover img {
   transform: rotate(80deg) scale(1.2);
-}
-.box5 img {
-  width: 100%;
-  transition: 0.8s;
 }
 
 .boxo5:hover img {
   transform: scale(1.5);
 }
-.boxo6 img {
-  width: 100%;
-  transition: 0.8s;
-  overflow: hidden;
-  height: 230px;
-}
 
 .boxo6:hover img {
   transform: rotate(-30deg) scale(1.5);
 }
+/* extra end */
 
 /* footer start */
 
