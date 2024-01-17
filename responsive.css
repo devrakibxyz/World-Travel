@@ -107,7 +107,14 @@
     position: relative;
   }
   .full-card-deals {
-    left: 20px;
+    left: 8px;
+
+    width: 380px;
+    /* padding: 50px;
+    position: absolute; */
+    top: 50px;
+    margin: left;
+    /* left: 570px; */
   }
   #section-7-content li {
     color: #131318;
